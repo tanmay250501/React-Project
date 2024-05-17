@@ -6,16 +6,17 @@ import {Footer} from "./MyComponent/Footer";
 
 function App() {
 
-  let my = 345;
+
   return (
     
     <>
-    <Header></Header>
-    <ToodosList></ToodosList>
-    <Footer></Footer>
+    <Header title = "My To Do List" />
+    <ToodosList/>
+    <Footer/>
     </>
   );
 }
 
 export default App;
+
 
